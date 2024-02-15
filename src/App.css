@@ -1,0 +1,93 @@
+body {
+  background-color: #010101;
+  width: 100%;
+  color: #fff;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "kanit", sans-serif;
+  font-weight: 500;
+  color: #fff;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+/* ////// */
+
+.head {
+  position: relative;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 150px 0 0 0;
+}
+
+.head h1,
+h3 {
+  margin: 0;
+}
+
+.logo {
+  width: 175px;
+  height: 175px;
+  border-radius: 100%;
+  border: 1px solid white;
+}
+
+.head_decor {
+  display: none;
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background-color: rgb(229, 9, 20);
+  border-radius: 100% 75% 80% 75%;
+  top: -175px;
+  left: -175px;
+}
+
+.balihoIc-body {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 100px 0 0 0;
+}
+
+.balihoIc {
+  border: 1px solid #00ffff;
+  border-radius: 5px;
+  background-color: #00ffff;
+  box-shadow: 0 0 50px #00ffff;
+}
+
+.balihoIc h2 {
+  margin: 5px 5px 5px 5px;
+  color: rgb(0, 200, 255);
+}
+
+.balihoIc-hole {
+  margin: 25px 0 0 0;
+  width: 100px;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 10px solid white;
+}
