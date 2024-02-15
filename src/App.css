@@ -10,8 +10,8 @@ body {
 #root {
   width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: start;
+  justify-content: start;
+  align-items: center;
   flex-direction: column;
 }
 
@@ -81,6 +81,7 @@ h3 {
 .balihoIc h2 {
   margin: 5px 5px 5px 5px;
   color: rgb(0, 200, 255);
+  /* font-size: 2.5rem; */
 }
 
 .balihoIc-hole {
@@ -90,4 +91,50 @@ h3 {
   border-left: 40px solid transparent;
   border-right: 40px solid transparent;
   border-bottom: 10px solid white;
+}
+
+/* EGO */
+
+.ego-section {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 100px 0 0 0;
+}
+
+.ego-section h3 {
+  padding: 1px 5px;
+}
+
+.ego-section h3:nth-child(1) {
+  border-left: 3px solid rgb(229, 9, 20);
+  border-bottom: 3px solid rgb(229, 9, 20);
+  border-radius: 3px;
+}
+
+.ego-section-photo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ego-photo {
+  width: 200px;
+  height: 250px;
+  border-right: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  margin: 25px 0;
+  box-shadow: -17px -17px 0 0 rgb(0, 0, 0), -20px -20px 0 0 #e42f2f;
+  background-color: rgb(255, 255, 255, 0.5);
+}
+
+.ego-name {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
 }
