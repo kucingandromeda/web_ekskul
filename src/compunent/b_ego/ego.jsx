@@ -1,4 +1,5 @@
 import { EgoContact } from "./egoContact";
+import { EgoQuote } from "./egoQuote";
 import { motion } from "framer-motion";
 
 export const Ego = () => {
@@ -39,6 +40,7 @@ export const Ego = () => {
         <h3>Guru Informatika</h3>
       </div>
       <EgoContact></EgoContact>
+      <EgoQuote></EgoQuote>
     </motion.div>
   );
 };
