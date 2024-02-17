@@ -185,3 +185,88 @@ h3 {
 .ego-quote p {
   text-align: center;
 }
+
+/* CRUE */
+.crue-section {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 150px 0 0 0;
+}
+
+.crue-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.crue-title h2,
+p {
+  margin: 0;
+}
+
+.crue-option-box {
+  width: 75%;
+  border: 2px solid rgb(0, 200, 255);
+  box-shadow: 0 0 50px white;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px 0 10px 0;
+}
+
+.crue-option-item {
+  width: 50px;
+  height: 50px;
+  border: 2px solid white;
+  margin: 10px;
+}
+
+.crue-box-showing {
+  width: 75%;
+  border-radius: 5px;
+  margin: 50px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.crue-photo {
+  box-shadow: -17px -17px 0 0 rgb(0, 0, 0), -20px -20px 0 0 rgb(0, 200, 255);
+  width: 150px;
+  height: 200px;
+  border-right: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+}
+
+.crue-desc {
+  width: 80%;
+  margin: 25px 0 0 0;
+}
+
+.crue-desc h3 {
+  margin: 15px 0 0 0;
+  border-bottom: 2px solid rgb(255, 255, 255, 0.5);
+  background-color: #010101;
+}
+
+.crue-desc p {
+  margin: 0 0 0 10px;
+}
+
+.crue-desc ul {
+  padding: 0;
+  margin: 0;
+}
+
+.crue-desc li {
+  list-style: none;
+  margin: 0 0 0 10px;
+  font-family: "poppins", sans-serif;
+}

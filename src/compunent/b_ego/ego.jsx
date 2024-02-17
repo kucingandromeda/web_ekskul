@@ -6,7 +6,7 @@ export const Ego = () => {
   return (
     <motion.div
       variants={{
-        offview: { opacity: 0, y: 10 },
+        offview: { opacity: 0, y: 20 },
         onview: {
           opacity: 1,
           y: 0,
